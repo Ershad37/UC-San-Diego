@@ -15,13 +15,5 @@ def min_num_of_groups(ages: list[int]):
     return groups
 
 
-def grouping_the_children(groups: list[int], arr: list[int]):
-    for group in groups:
-        return arr[group[0]: group[1]+ 1]
-    
-
-
-
-
 if __name__ == "__main__":
     main()
