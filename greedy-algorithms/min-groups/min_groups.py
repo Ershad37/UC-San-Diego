@@ -1,8 +1,6 @@
 def main():
     children = [2,2,3,4,4,5,6,6,6,7,8,9]
-    groups = grouping_the_children(min_num_of_groups(children), children)
-    print(groups)
-    
+    print(min_num_of_groups(children))
 
 
 def min_num_of_groups(ages: list[int]):
