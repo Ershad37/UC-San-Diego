@@ -1,5 +1,5 @@
 def main():
-    values = [40, 44, 49, 32]
+    values = [40, 44, 49, 32]  
     weights = [5, 4, 7, 8]
     bag = 9
     print(maximizing_loot_fast(values, weights, bag))
