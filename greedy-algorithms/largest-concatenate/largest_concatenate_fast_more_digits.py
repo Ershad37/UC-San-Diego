@@ -1,5 +1,5 @@
 def main():
-    print(largest_concatenate(nums=[88, 3, 21, 85]))
+    print(largest_concatenate(nums=[2, 21]))
 
 
 def largest_concatenate(nums: list[int]):
